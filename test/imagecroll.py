@@ -134,7 +134,7 @@ for i in range(1, list_len+1):
 
 print("크롤링 걸린 시간 : " + str(time.time() - start_time))
 excel_file.close()
-
+print(name)
 
 
 
