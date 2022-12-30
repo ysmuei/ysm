@@ -131,7 +131,7 @@ for i in range(1, list_len+1):
     excel_sheet.cell(row=1+i, column=4, value="{}".format(hash_img))
     excel_file.save('{}/../{}.xlsx'.format(img_folder,name))
 
-print(name)
+
 print("크롤링 걸린 시간 : " + str(time.time() - start_time))
 excel_file.close()
 
